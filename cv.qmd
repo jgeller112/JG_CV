@@ -1,0 +1,406 @@
+---
+title: "Jason Geller — Curriculum Vitae"
+author:
+  firstname: Jason
+  lastname: Geller
+  address: "Boston, MA, USA"
+  position: "Director, Human Neuroscience Facility"
+  contacts:
+    - icon: fa envelope
+      text: drjasongeller@gmail.com
+      url: "mailto:drjasongeller@gmail.com"
+    - icon: fa globe
+      text: drjasongeller.com
+      url: "https://drjasongeller.com"
+    - icon: fa brands github
+      text: jgeller112
+      url: "https://github.com/jgeller112"
+    - icon: fa brands orcid
+      text: 0000-0002-7459-4505
+      url: "https://orcid.org/0000-0002-7459-4505"
+    - icon: fa phone
+      text: 515-520-3464
+      url: "tel:+15155203464"
+format:
+  awesomecv-typst: default
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+
+```{r}
+library(typstcv)
+library(tibble)
+library(dplyr)
+# -------------------------
+# Education (dates)
+# -------------------------
+educ <- tribble(
+  ~title, ~location, ~start, ~end, ~description,
+  "Ph.D., Psychology", "Ames, IA", as.Date("2012-01-01"), as.Date("2017-06-01"),
+  "Iowa State University — Quantitative Psychology Certificate (2016)",
+
+  "M.S., Experimental Psychology (Distinction)", "Chicago, IL", as.Date("2009-09-01"), as.Date("2012-09-01"),
+  "DePaul University",
+
+  "B.A., Psychology", "Chicago, IL", as.Date("2005-09-01"), as.Date("2009-05-01"),
+  "Concordia University"
+)
+
+# -------------------------
+# Work (institution in description; no 'Present' strings)
+# -------------------------
+work <- tribble(
+  ~title, ~location, ~start, ~end, ~description,
+  "Director, Human Neuroscience Facility", "Boston, MA",
+  as.Date("2024-01-01"), NA, "Boston College",
+
+  "Lecturer and Statistical Consultant", "Princeton, NJ",
+  as.Date("2022-01-01"), as.Date("2024-01-01"), "Princeton University",
+
+  "Research Scientist", "",
+  as.Date("2022-02-01"), as.Date("2022-07-01"), "Tobii Eye Tracking — Feb–July 2022",
+
+  "Research Scientist", "New Brunswick, NJ",
+  as.Date("2020-01-01"), as.Date("2022-01-01"), "Rutgers Center for Cognitive Science",
+
+  "Postdoctoral Researcher", "Iowa City, IA",
+  as.Date("2019-01-01"), as.Date("2020-01-01"), "University of Iowa",
+
+  "Postdoctoral Researcher", "Birmingham, AL",
+  as.Date("2017-01-01"), as.Date("2019-01-01"), "University of Alabama at Birmingham"
+)
+
+# -------------------------
+# Awards (institution in description)
+# -------------------------
+award <- tribble(
+  ~title, ~location, ~start, ~end, ~description,
+  "Lloyd Avant Scholars Award for Outstanding Achievement in Cognitive Psychology", "",
+  as.Date("2017-01-01"), as.Date("2017-01-01"),
+  "Iowa State University — Annual award ($100)"
+)
+
+
+editorial <- tibble::tribble(
+  ~title, ~location, ~start, ~end, ~detail1,
+  "Behavior Research Methods", "", 2025, 2026,
+  "Special Issue Editor",
+
+  "Attention, Perception, & Psychophysics", "", 2026, NA,
+  "Consulting Editor"
+)
+
+
+
+```
+
+## Education
+```{r}
+#| output: asis
+
+#| output: asis
+educ |>
+  format_date(
+    start = "start",
+    end = "end",
+    date_format = "%Y",
+    sep = "–",
+    sort_by = "start"
+  ) |>
+  resume_entry()
+
+```
+## Professional Experience
+
+```{r}
+#| output: asis
+
+#| output: asis
+work |>
+  format_date(
+    start = "start",
+    end = "end",
+    date_format = "%Y",
+    sep = "–",
+    sort_by = "start"
+  ) |>
+  resume_entry()
+```
+## Funding
+
+### Consulting
+
+- **Early Detection and Treatment of Emerging Cognitive-Linguistic Impairment in Minority Cognitive Aging and Primary Progressive Aphasia** (R01DC013063).  
+  *Principal Investigator:* Jamie Reilly.  
+  *Role:* Statistical and methodological consultant. (2024–present)
+
+### Awards
+
+- **Vice Provost for Research (VPR) Capital Equipment Grant**.  
+  Boston College. *Award amount:* $40,000.  
+  *Purpose:* Acquisition of research equipment supporting human neuroscience and eye-tracking research. (2025)
+
+- **Lloyd Avant Scholars Award for Outstanding Achievement in Cognitive Psychology**.  
+  Iowa State University. Awarded annually to an outstanding student. *Award amount:* $100. (2017)
+
+## Publications
+
+1. Buchanan, E. M., Elsherif, M. M., **Geller, J.**, Aberson, C., Gurkan, N., Ambrosini, E., Heyman, T., Montefinese, M., vanpaemel, W., & Barzykowski, K. (in press). Accuracy in parameter estimation and simulation approaches for sample size planning with multiple stimuli. *Behavioral Research Methods*.
+
+1. **Geller, J.**, Gomez, P., Buchanan, E., & Makowski, D. (2025). [A distributional response time analysis of the perceptual disfluency effect](https://journalofcognition.org/articles/10.5334/joc.469). *Journal of Cognition*, 8(1): 50, pp.1-26. DOI:https://journalofcognition.org/articles/10.5334/joc.469.
+
+1. **Geller, J.**, Prystauka, Y., Colby, S. E., & Drouin, J. R. (2025). Language without borders: A step-by-step guide to analyzing webcam eye-tracking data for L2 research. *Research Methods in Applied Linguistics*, 4(3), 100226. https://doi.org/10.1016/j.rmal.2025.100226
+
+1. Buchanan, E. M., Cuccolo, K., Heyman, T., van Berkel, N., Coles, N. A., Iyer, A., Peters, K., van 't Veer, A. E., Montefinese, M., Maxwell, N. P., Taylor, J. E., Valentine, K. D., Arriaga, P., Barzykowski, K., Boucher, L., Collins, W. M., Vaidis, D. C., Aczel, B., Al-Hoorie, A. H., Ambrosini, E., … **Geller, J.** (2025). Measuring the semantic priming effect across many languages. Nature human behaviour, 10.1038/s41562-025-02254-x. Advance online publication. https://doi.org/10.1038/s41562-025-02254-x
+
+3. Coretta, S., Casillas, J. V., Roessig, S., Franke, M., Ahn, B., Al-Hoorie, A. H., Al-Tamimi, J., Alotaibi, N. E., AlShakhori, M. K., & Altmiller, R. M., … **Geller, J.** (2023). [Multidimensional signals and analytic flexibility: Estimating degrees of freedom in human speech analyses](https://journals.sagepub.com/doi/10.1177/25152459231162567). *Advances in Methods and Practices in Psychological Sciences*.
+
+4. Chen-Sankey, J., Elhabashy, M., Gratale, S., **Geller, J.**, Mercincavage, M., Strasser, A. A., Delnevo, C. D., Jeong, M., & Wackowski, O. A. (2023). [Protocol for a Remote Webcam-based Eye-Tracking Experiment for Examining Visual Attention to Tobacco Marketing Materials](https://preprints.jmir.org/preprint/43512). *JMIR Research Protocols*. (Protocol posted 2022-10-13: 43512).
+
+5. Seidman, A., Wade, N., & **Geller, J.** (2022). [Self-affirmation and group counseling: A replication and extension of its effects on stigma reduction and group processes](https://psycnet.apa.org/record/2022-47054-001). *Journal of Counseling Psychology*.
+
+6. **Geller, J.**, & Peterson, D. (2021). [Is this going to be on the test? Test expectancy moderates the role of the disfluency effect with Sans Forgetica](https://psyarxiv.com/rcxvf/). *Journal of Experimental Psychology: Learning, Memory, and Cognition*.
+
+7. **Geller, J.**, Holmes, A., Schwalje, A., Berger, J. I., Gander, P., Inyong, C., & McMurrary, B. (2021). [The validation of the Iowa test of consonant perception](https://psyarxiv.com/wxd93/). *The Journal of the Acoustical Society of America, 150*(3), 2131.
+
+8. Thye, M., **Geller, J.**, & Mirman, D. (2021). [Intracranial EEG evidence of functional specialization for taxonomic and thematic relations](https://www.sciencedirect.com/science/article/abs/pii/S0010945221001192). *Cortex, 140*, 40–50.
+
+9. McGarrigle, R., Knight, S., Rakusen, L., **Geller, J.**, & Mattys, S. (2021). [Pupillometry reveals a more sustained pattern of effortful listening in older adults](https://psyarxiv.com/3g6y5). *Psychology and Aging, 36*(4), 504–519.
+
+10. **Geller, J.**, Davis, S. D., & Peterson, D. (2020). [Sans Forgetica is not desirable for learning](https://psyarxiv.com/ku5bz/). *Memory, 28*(8), 957–967.
+
+11. **Geller, J.**, Winn, M., Mahr, T., & Mirman, D. (2020). [Gazer: A R package to preprocess gaze and pupil data](https://psyarxiv.com/4qwr8/). *Behavior Research Methods, 52*, 2232–2255.
+
+12. Carpenter, S. K., & **Geller, J.** (2019). [Is a picture really worth a thousand words? Evaluating contributions of fluency and analytic processing in the overconfidence bias for pictures in foreign language learning](https://664ef278-1723-43c6-bbe1-3bd4e65a87fe.filesusr.com/ugd/f4b9f1_7fd266655b0542629785543c7a8bf170.pdf). *Quarterly Journal of Experimental Psychology, 73*(2), 211–224.
+
+13. **Geller, J.**, Landrigan, J.-F., & Mirman, D. (2019). [A pupillometric examination of cognitive control in taxonomic and thematic semantic memory](https://www.journalofcognition.org/articles/10.5334/joc.56/). *Journal of Cognition, 2*(1), 6.
+
+14. **Geller, J.**, Thye, M., & Mirman, D. (2019). [Effects of graded white matter damage and binary tract disconnection on post-stroke language impairment](https://authors.elsevier.com/a/1YRLR3lc~r72Pj). *NeuroImage, 189*, 248–257.
+
+15. **Geller, J.**, Still, M. L., Dark, V. J., & Carpenter, S. K. (2018). [Would disfluency by any other name still be disfluent? Examining the disfluency effect with cursive handwriting](https://rdcu.be/0iM7). *Memory & Cognition, 46*, 1109–1126.
+
+16. **Geller, J.**, Toftness, A. R., Armstrong, P. I., Carpenter, S. K., Manz, C. L., Coffman, C. R., & Lamm, M. H. (2018). [Study strategies and beliefs about learning as a function of academic achievement and achievement goals](http://www.tandfonline.com/doi/abs/10.1080/09658211.2017.1397175?needAccess=true&journalCode=pmem20). *Memory, 26*(5), 683–690.
+
+17. **Geller, J.**, Carpenter, S. K., Lamm, M. H., Rahman, S., Armstrong, P. I., & Coffman, C. R. (2017). [Prequestions do not enhance the benefits of retrieval in a STEM classroom](https://public.psych.iastate.edu/shacarp/Geller_Carpenter_et_al_2017.pdf). *Cognitive Research: Principles and Implications, 2*(1), 42.
+
+18. Toftness, A. R., Carpenter, S. K., **Geller, J.**, Lauber, S., Johnson, M., & Armstrong, P. I. (2017). [Instructor fluency leads to higher confidence in learning, but not better learning](https://link.springer.com/article/10.1007/s11409-017-9175-0). *Metacognition & Learning, 13*(1), 1–14.
+
+19. **Geller, J.**, Still, M. L., & Morris, A. L. (2016). [Eyes wide open: Pupil size as a proxy for inhibition in the masked-priming paradigm](https://www.ncbi.nlm.nih.gov/pubmed/26631160). *Memory & Cognition, 44*, 554–564.
+
+20. Brandt, M. J., IJzerman, H., Dijksterhuis, A., Farach, F., **Geller, J.**, Giner-Sorolla, R., Grange, J. A., Perugini, M., Spies, J., & van ’t Veer. (2014). [The replication recipe: What makes for a convincing replication?](http://www.sciencedirect.com/science/article/pii/S0022103113001819). *Journal of Experimental Social Psychology, 50*, 217–224.
+
+
+## Preprints/Unpublished
+
+1. Geller, J., Kubinec, R, Parlett, C., and Vuorre, M.(2025). [A Beta way: A tutorial for using Beta regression in psychological research](https://doi.org/10.31234/osf.io/d6v5t_v4).
+
+2. Nadler, E., **Geller, J.**, Bers, M.U.(2025). [The coding brain: P600 effects elicited by the visual programming language ScratchJr.](https://doi.org/10.31234/osf.io/zy8d5_v1)
+
+## Talks/Workshops
+
+- **Geller, J.** (August, 2025). *Writing reproducible manuscripts in R using Quarto*.  
+  OPAM Virtual.  
+
+- **Geller, J.** (June, 2021). *What did you say? A web-based validation of a speech-in-noise task*.  
+  BeOnline 2021, Virtual Conference.  
+
+- **Geller, J.** (November, 2020). *Using gazeR to analyze data from pupillometry studies*.  
+  Advancing Methods in Pupillometry, Virtual Conference.  
+
+## Software
+
+- {**webgazeR**}. R package for webcam-based eye-tracking in online experiments.  
+  GitHub: https://github.com/jgeller112/webgazeR
+
+- {**gazeR**}. R package for preprocessing and analyzing gaze data from eye-tracking studies.  
+  GitHub: https://github.com/dmirman/gazer
+  
+## Conferences
+
+1. **Vision Science Society Annual Meeting (VSS 2026)**  
+   St. Pete Beach, FL, United States  
+   - Poster: Xue, X., Davidesco, I., Av-Shalom, N., Vasilyeva, M., Zhang, N., Sabelli, R., & **Geller, J.** *Through the student’s lens: Capturing visual attention in real-world classrooms*
+
+2. **Cognitive Neuroscience Society Annual Meeting (CNS 2026)**  
+   Vancouver, BC, Canada  
+   - Poster: Xue, X., Davidesco, I., Av-Shalom, N., Vasilyeva, M., Zhang, N., Sabelli, R., & **Geller, J.** *Detecting mind wandering in real classrooms using eye-tracking and machine learning*
+
+3. **Cognitive Neuroscience Society Annual Meeting (CNS 2025)**  
+   Boston, MA, March 29–April 1, 2025  
+   - Poster: Easwar, V., Davidesco, I., **Geller, J.**, & Gilmore, S. *The impact of internal attention on learning from online lectures*  
+   - Poster: Nadler, E., **Geller, J.**, & Bers, M. *Semantic ERP correlates in processing of the visual programming language ScratchJr*
+
+4. **61st Annual Meeting of the Psychonomic Society (Psychonomics 2020)**  
+   Online, November 2020  
+   - Poster: *Sans Forgetica is not desirable for learning*
+
+5. **Association for Research in Otolaryngology (ARO 2020)**  
+   Chicago, IL, May 2020  
+   - Poster: *What did you say? The when and where of degraded speech processing*  
+   - Poster: *Assessing the reliability and validity of the Iowa Test of Consonant Confusion*  
+   - Poster: *The effect of selective attention training on effort during speech-in-noise training*
+
+6. **60th Annual Meeting of the Psychonomic Society (Psychonomics 2019)**  
+   Montreal, QC, November 2019  
+   - Poster: *Is a picture really worth a thousand words? Evaluating contributions of fluency and analytic processing in the overconfidence bias for pictures in foreign language learning*
+
+7. **Advances and Perspectives in Auditory Neuroscience (APAN 2019)**  
+   Chicago, IL, October 2019  
+   - Poster: *Auditory attentional modulation in cochlear implant users*
+
+8. **38th Annual Meeting of the Cognitive Science Society (CSS 2018)**  
+   Madison, WI, July 2018  
+   - Poster: *Testing expectancy, but not judgments of learning, moderate the disfluency effect*
+
+9. **10th Annual Meeting of the Society for Neurobiology of Language (SNL 2018)**  
+   Quebec City, Canada, August 2018  
+   - Poster: *Effects of graded white matter damage and binary tract disconnection on post-stroke language impairment*
+
+10. **47th Annual Meeting of the Society for Computers in Psychology (SCIP 2018)**  
+    New Orleans, LA, November 2018  
+    - Poster: *gazeR: A package to analyze gaze position and pupil size data*
+
+11. **59th Annual Meeting of the Psychonomic Society (Psychonomics 2017)**  
+    New Orleans, LA, November 2017  
+    - Poster: *An intracranial EEG study of semantic cognition*  
+    - Poster: *A pupillometric examination of cognitive control in taxonomic and thematic semantic memory*
+
+12. **58th Annual Meeting of the Psychonomic Society (Psychonomics 2017)**  
+    Vancouver, BC, November 2017  
+    - Poster: *The effect of prequestions on learning introductory biology*  
+    - Poster: *Is cursive worth saving? Handwriting as a desirable difficulty*
+
+13. **57th Annual Meeting of the Psychonomic Society (Psychonomics 2016)**  
+    Boston, MA, November 2016  
+    - Poster: *The race toward the lexicon: How does cursive shape up?*
+
+14. **Annual Meeting of the Society for the Advancement of Biology Education Research (SABER 2016)**  
+    Minneapolis, MN, July 2016  
+    - Poster: *Using systematic application of retrieval practice to enhance student achievement in introductory biology*
+
+15. **56th Annual Meeting of the Psychonomic Society (Psychonomics 2015)**  
+    Chicago, IL, November 2015  
+    - Poster: *Do you know where your word has been? A right hemisphere mechanism for contextual diversity*
+
+16. **Annual Meeting of the Midwestern Psychological Association (MPA 2015)**  
+    Chicago, IL, November 2015  
+    - Talk: *A pupillometric analysis of inhibitory priming in the masked-priming lexical decision task*
+
+17. **55th Annual Meeting of the Psychonomic Society (Psychonomics 2014)**  
+    Long Beach, CA, November 2014  
+    - Poster: *Inhibition in the eyes: Using pupillometry to examine inhibition in the masked-priming lexical-decision task*
+
+18. **54th Annual Meeting of the Psychonomic Society (Psychonomics 2013)**  
+    Toronto, Canada, November 2013  
+    - Poster: *The reversed Goldilocks effect: Premask duration modulates priming in the masked-priming same–different task*
+
+19. **41st Annual Meeting of the Society for Computers in Psychology (SCIP 2011)**  
+    Seattle, WA, November 2011  
+    - Poster: *Modeling of corrective saccades*
+
+20. **17th Annual Meeting of the European Society for Cognitive Psychology (ESCP 2011)**  
+    San Sebastián, Spain, July 2011  
+    - Poster: *Related word primes alone do not inhibit target reaction times in a masked-prime lexical decision task*
+
+21. **40th Annual Meeting of the Society for Computers in Psychology (SCIP 2010)**  
+    St. Louis, MO, November 2010  
+    - Poster: *A tool to analyze pupil dilation data in R*
+
+22. **Annual Meeting of the Association for Psychological Science (APS 2009)**  
+    San Francisco, CA, November 2009  
+    - Poster: *The deleterious effect of music on self-explanations*
+
+23. **Annual Meeting of the Midwestern Psychological Association (MPA 2009)**  
+    Chicago, IL, May 2009  
+    - Poster: *Effects of background music on serial object recall*
+
+24. **Annual Meeting of the Midwestern Psychological Association (MPA 2008)**  
+    Chicago, IL, May 2008  
+    - Poster: *The effect of music on object recall*
+
+## Teaching Experience
+
+### Department of Psychology, Iowa State University (Ames, IA)
+
+*Course Instructor*  
+*Evaluation scores range from 5 = Very Effective/Excellent to 1 = Very Ineffective/Poor*
+
+  | Course                   | Mean Rating | Term        |
+  |--------------------------|-------------|-------------|
+  | Brain and Behavior       | 5.0         | Summer 2016 |
+  | Psychology of Language   | 3.1         | Spring 2016 |
+  | Academic Skills Learning | 4.6         | Spring 2016 |
+  | Brain and Behavior       | 4.3         | Summer 2015 |
+  | Brain and Behavior       | 3.5         | Summer 2014 |
+
+
+### Department of Psychology, University of Alabama at Birmingham (Birmingham, AL)
+*Course Instructor*  
+*Evaluation scores range from 5 = Very Effective/Excellent to 1 = Very Ineffective/Poor*
+
+| Course           | Mean Rating | Term      |
+|------------------|-------------|-----------|
+| Statistics (Online) | 4.1     | Fall 2018 |
+
+---
+
+### Center for Cognitive Science, Rutgers University (Piscataway, NJ)
+*Course Instructor*  
+*Evaluation scores range from 5 = Very Effective/Excellent to 1 = Very Ineffective/Poor*
+
+| Course           | Mean Rating | Term      |
+|------------------|-------------|-----------|
+| Research Methods | 4.9         | Fall 2021 |
+
+---
+
+### Department of Psychology, Princeton University (Princeton, NJ)
+*Course Instructor*  
+*Graduate-level courses unless otherwise noted*
+
+| Course                                         | Term        |
+|-----------------------------------------------|-------------|
+| Fundamentals of Statistics (Graduate)         | Fall 2022   |
+| Seminar in Advanced Statistics and Methods    | Fall 2022   |
+| Advanced Statistics (Graduate)                | Spring 2023 |
+| Seminar in Advanced Statistics and Methods    | Spring 2023 |
+| Fundamentals of Statistics (Graduate)         | Fall 2023   |
+| Seminar in Advanced Statistics and Methods    | Fall 2023   |
+| Advanced Statistics (Graduate)                | Spring 2024 |
+| Seminar in Advanced Statistics and Methods    | Spring 2024 |
+
+
+## Professional Service
+
+### Editorial Service 
+
+| Journal | Role | Years |
+|--------|------|-------|
+| *Behavior Research Methods* | Special Issue Editor | August 2025–August 2026 |
+| *Attention, Perception, & Psychophysics* | Consulting Editor | January 2026–present |
+
+
+### Ad-hoc Reviewer
+
+- *Journal of Cognition*  
+- *Journal of Applied Research in Memory and Cognition*  
+- *Applied Cognitive Psychology*  
+- *Quarterly Journal of Experimental Psychology*
+- *Attention, Perception, & Psychophysics*  
+- *Journal of Articles in Support of the Null Hypothesis*  
+- *Cognitive Science*  
+- *Journal of Cognitive Psychology*  
+- *Hearing Research*  
+- *Memory*  
+- *Language, Cognition and Neuroscience*  
+- *Journal of Educational Psychology*  
+- *Behavior Research Methods*  
+- *Instructional Science*  
+- *Journal of Experimental Psychology: Learning, Memory, and Cognition*  
+- *Motivation Science*
+- *Experimental Psychology*
+
+
