@@ -148,7 +148,7 @@ work |>
 
 ## Publications
 
-1. Buchanan, E. M., Elsherif, M. M., **Geller, J.**, Aberson, C., Gurkan, N., Ambrosini, E., Heyman, T., Montefinese, M., vanpaemel, W., & Barzykowski, K. (in press). Accuracy in parameter estimation and simulation approaches for sample size planning with multiple stimuli. *Behavioral Research Methods*.
+1. Buchanan, E. M., Elsherif, M. M., **Geller, J.**, Aberson, C., Gurkan, N., Ambrosini, E., Heyman, T., Montefinese, M., vanpaemel, W., & Barzykowski, K. (2026). Accuracy in parameter estimation and simulation approaches for sample size planning with multiple stimuli. *Behavioral Research Methods*.
 
 1. **Geller, J.**, Gomez, P., Buchanan, E., & Makowski, D. (2025). [A distributional response time analysis of the perceptual disfluency effect](https://journalofcognition.org/articles/10.5334/joc.469). *Journal of Cognition*, 8(1): 50, pp.1-26. DOI:https://journalofcognition.org/articles/10.5334/joc.469.
 
@@ -195,9 +195,11 @@ work |>
 
 ## Preprints/Unpublished
 
-1. Geller, J., Kubinec, R, Parlett, C., and Vuorre, M.(2025). [A Beta way: A tutorial for using Beta regression in psychological research](https://doi.org/10.31234/osf.io/d6v5t_v4).
+1. Vieira, F. F., **Geller, J.**, & Rodrigues, B. (2026, January 28). [Why Risk it, When You Can {rix} it: A Tutorial for Computational Reproducibility Focused on Simulation Studies](https://osf.io/preprints/psyarxiv/a3e8v_v1).
 
-2. Nadler, E., **Geller, J.**, Bers, M.U.(2025). [The coding brain: P600 effects elicited by the visual programming language ScratchJr.](https://doi.org/10.31234/osf.io/zy8d5_v1)
+2. Geller, J., Kubinec, R, Parlett, C., and Vuorre, M.(2025). [A Beta way: A tutorial for using Beta regression in psychological research](https://doi.org/10.31234/osf.io/d6v5t_v4).
+
+3. Nadler, E., **Geller, J.**, Bers, M.U.(2025). [The coding brain: P600 effects elicited by the visual programming language ScratchJr.](https://doi.org/10.31234/osf.io/zy8d5_v1)
 
 ## Talks/Workshops
 
@@ -224,100 +226,104 @@ work |>
    St. Pete Beach, FL, United States  
    - Poster: Xue, X., Davidesco, I., Av-Shalom, N., Vasilyeva, M., Zhang, N., Sabelli, R., & **Geller, J.** *Through the student’s lens: Capturing visual attention in real-world classrooms*
 
-2. **Cognitive Neuroscience Society Annual Meeting (CNS 2026)**  
-   Vancouver, BC, Canada  
+2. **Cognitive Neuroscience Society Annual Meeting (CNS 2026)**
+   Vancouver, BC, Canada
    - Poster: Xue, X., Davidesco, I., Av-Shalom, N., Vasilyeva, M., Zhang, N., Sabelli, R., & **Geller, J.** *Detecting mind wandering in real classrooms using eye-tracking and machine learning*
 
-3. **Cognitive Neuroscience Society Annual Meeting (CNS 2025)**  
+3. **Annual Meeting of the Midwestern Psychological Association (MPA 2026)**
+   Chicago, IL
+   - Poster: Rende, L., Miller, G., **Geller, J.**, & Barnhart, A. *A Whole Other Aminal: Transposed Letters in Handwritten Word Perception*
+
+4. **Cognitive Neuroscience Society Annual Meeting (CNS 2025)**
    Boston, MA, March 29–April 1, 2025  
    - Poster: Easwar, V., Davidesco, I., **Geller, J.**, & Gilmore, S. *The impact of internal attention on learning from online lectures*  
    - Poster: Nadler, E., **Geller, J.**, & Bers, M. *Semantic ERP correlates in processing of the visual programming language ScratchJr*
 
-4. **61st Annual Meeting of the Psychonomic Society (Psychonomics 2020)**  
+5. **61st Annual Meeting of the Psychonomic Society (Psychonomics 2020)**  
    Online, November 2020  
    - Poster: *Sans Forgetica is not desirable for learning*
 
-5. **Association for Research in Otolaryngology (ARO 2020)**  
+6. **Association for Research in Otolaryngology (ARO 2020)**  
    Chicago, IL, May 2020  
    - Poster: *What did you say? The when and where of degraded speech processing*  
    - Poster: *Assessing the reliability and validity of the Iowa Test of Consonant Confusion*  
    - Poster: *The effect of selective attention training on effort during speech-in-noise training*
 
-6. **60th Annual Meeting of the Psychonomic Society (Psychonomics 2019)**  
+7. **60th Annual Meeting of the Psychonomic Society (Psychonomics 2019)**  
    Montreal, QC, November 2019  
    - Poster: *Is a picture really worth a thousand words? Evaluating contributions of fluency and analytic processing in the overconfidence bias for pictures in foreign language learning*
 
-7. **Advances and Perspectives in Auditory Neuroscience (APAN 2019)**  
+8. **Advances and Perspectives in Auditory Neuroscience (APAN 2019)**  
    Chicago, IL, October 2019  
    - Poster: *Auditory attentional modulation in cochlear implant users*
 
-8. **38th Annual Meeting of the Cognitive Science Society (CSS 2018)**  
+9. **38th Annual Meeting of the Cognitive Science Society (CSS 2018)**  
    Madison, WI, July 2018  
    - Poster: *Testing expectancy, but not judgments of learning, moderate the disfluency effect*
 
-9. **10th Annual Meeting of the Society for Neurobiology of Language (SNL 2018)**  
+10. **10th Annual Meeting of the Society for Neurobiology of Language (SNL 2018)**  
    Quebec City, Canada, August 2018  
    - Poster: *Effects of graded white matter damage and binary tract disconnection on post-stroke language impairment*
 
-10. **47th Annual Meeting of the Society for Computers in Psychology (SCIP 2018)**  
+11. **47th Annual Meeting of the Society for Computers in Psychology (SCIP 2018)**  
     New Orleans, LA, November 2018  
     - Poster: *gazeR: A package to analyze gaze position and pupil size data*
 
-11. **59th Annual Meeting of the Psychonomic Society (Psychonomics 2017)**  
+12. **59th Annual Meeting of the Psychonomic Society (Psychonomics 2017)**  
     New Orleans, LA, November 2017  
     - Poster: *An intracranial EEG study of semantic cognition*  
     - Poster: *A pupillometric examination of cognitive control in taxonomic and thematic semantic memory*
 
-12. **58th Annual Meeting of the Psychonomic Society (Psychonomics 2017)**  
+13. **58th Annual Meeting of the Psychonomic Society (Psychonomics 2017)**  
     Vancouver, BC, November 2017  
     - Poster: *The effect of prequestions on learning introductory biology*  
     - Poster: *Is cursive worth saving? Handwriting as a desirable difficulty*
 
-13. **57th Annual Meeting of the Psychonomic Society (Psychonomics 2016)**  
+14. **57th Annual Meeting of the Psychonomic Society (Psychonomics 2016)**  
     Boston, MA, November 2016  
     - Poster: *The race toward the lexicon: How does cursive shape up?*
 
-14. **Annual Meeting of the Society for the Advancement of Biology Education Research (SABER 2016)**  
+15. **Annual Meeting of the Society for the Advancement of Biology Education Research (SABER 2016)**  
     Minneapolis, MN, July 2016  
     - Poster: *Using systematic application of retrieval practice to enhance student achievement in introductory biology*
 
-15. **56th Annual Meeting of the Psychonomic Society (Psychonomics 2015)**  
+16. **56th Annual Meeting of the Psychonomic Society (Psychonomics 2015)**  
     Chicago, IL, November 2015  
     - Poster: *Do you know where your word has been? A right hemisphere mechanism for contextual diversity*
 
-16. **Annual Meeting of the Midwestern Psychological Association (MPA 2015)**  
+17. **Annual Meeting of the Midwestern Psychological Association (MPA 2015)**  
     Chicago, IL, November 2015  
     - Talk: *A pupillometric analysis of inhibitory priming in the masked-priming lexical decision task*
 
-17. **55th Annual Meeting of the Psychonomic Society (Psychonomics 2014)**  
+18. **55th Annual Meeting of the Psychonomic Society (Psychonomics 2014)**  
     Long Beach, CA, November 2014  
     - Poster: *Inhibition in the eyes: Using pupillometry to examine inhibition in the masked-priming lexical-decision task*
 
-18. **54th Annual Meeting of the Psychonomic Society (Psychonomics 2013)**  
+19. **54th Annual Meeting of the Psychonomic Society (Psychonomics 2013)**  
     Toronto, Canada, November 2013  
     - Poster: *The reversed Goldilocks effect: Premask duration modulates priming in the masked-priming same–different task*
 
-19. **41st Annual Meeting of the Society for Computers in Psychology (SCIP 2011)**  
+20. **41st Annual Meeting of the Society for Computers in Psychology (SCIP 2011)**  
     Seattle, WA, November 2011  
     - Poster: *Modeling of corrective saccades*
 
-20. **17th Annual Meeting of the European Society for Cognitive Psychology (ESCP 2011)**  
+21. **17th Annual Meeting of the European Society for Cognitive Psychology (ESCP 2011)**  
     San Sebastián, Spain, July 2011  
     - Poster: *Related word primes alone do not inhibit target reaction times in a masked-prime lexical decision task*
 
-21. **40th Annual Meeting of the Society for Computers in Psychology (SCIP 2010)**  
+22. **40th Annual Meeting of the Society for Computers in Psychology (SCIP 2010)**  
     St. Louis, MO, November 2010  
     - Poster: *A tool to analyze pupil dilation data in R*
 
-22. **Annual Meeting of the Association for Psychological Science (APS 2009)**  
+23. **Annual Meeting of the Association for Psychological Science (APS 2009)**  
     San Francisco, CA, November 2009  
     - Poster: *The deleterious effect of music on self-explanations*
 
-23. **Annual Meeting of the Midwestern Psychological Association (MPA 2009)**  
+24. **Annual Meeting of the Midwestern Psychological Association (MPA 2009)**  
     Chicago, IL, May 2009  
     - Poster: *Effects of background music on serial object recall*
 
-24. **Annual Meeting of the Midwestern Psychological Association (MPA 2008)**  
+25. **Annual Meeting of the Midwestern Psychological Association (MPA 2008)**  
     Chicago, IL, May 2008  
     - Poster: *The effect of music on object recall*
 
