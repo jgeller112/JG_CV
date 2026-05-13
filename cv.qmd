@@ -97,6 +97,11 @@ editorial <- tibble::tribble(
 
 ```
 
+```{=typst}
+#show table: it => align(center, it)
+#show figure.where(kind: table): set align(center)
+```
+
 ## Education
 ```{r}
 #| output: asis
@@ -367,16 +372,11 @@ work |>
 *Course Instructor*  
 *Graduate-level courses unless otherwise noted*
 
-| Course                                         | Term        |
-|-----------------------------------------------|-------------|
-| Fundamentals of Statistics (Graduate)         | Fall 2022   |
-| Seminar in Advanced Statistics and Methods    | Fall 2022   |
-| Advanced Statistics (Graduate)                | Spring 2023 |
-| Seminar in Advanced Statistics and Methods    | Spring 2023 |
-| Fundamentals of Statistics (Graduate)         | Fall 2023   |
-| Seminar in Advanced Statistics and Methods    | Fall 2023   |
-| Advanced Statistics (Graduate)                | Spring 2024 |
-| Seminar in Advanced Statistics and Methods    | Spring 2024 |
+| Course                                         | Term                    |
+|-----------------------------------------------|-------------------------|
+| Fundamentals of Statistics (Graduate)         | Fall 2022 – Fall 2023   |
+| Advanced Statistics (Graduate)                | Spring 2023 – Spring 2024 |
+| Seminar in Advanced Statistics and Methods    | Fall 2022 – Spring 2024 |
 
 
 ## Professional Service
@@ -387,6 +387,11 @@ work |>
 |--------|------|-------|
 | *Behavior Research Methods* | Special Issue Editor | August 2025–August 2026 |
 | *Attention, Perception, & Psychophysics* | Consulting Editor | January 2026–present |
+
+
+### Preprint Service
+
+- *PsyArXiv* — Moderator (May 2026–present)
 
 
 ### Ad-hoc Reviewer
