@@ -197,7 +197,7 @@ work |>
 
 1. Vieira, F. F., **Geller, J.**, & Rodrigues, B. (2026, January 28). [Why Risk it, When You Can {rix} it: A Tutorial for Computational Reproducibility Focused on Simulation Studies](https://osf.io/preprints/psyarxiv/a3e8v_v1).
 
-2. Geller, J., Kubinec, R, Parlett, C., and Vuorre, M.(2025). [A Beta way: A tutorial for using Beta regression in psychological research](https://doi.org/10.31234/osf.io/d6v5t_v4).
+2. **Geller, J.**, Kubinec, R, Parlett, C., and Vuorre, M.(2025). [A Beta way: A tutorial for using Beta regression in psychological research](https://doi.org/10.31234/osf.io/d6v5t_v4).
 
 3. Nadler, E., **Geller, J.**, Bers, M.U.(2025). [The coding brain: P600 effects elicited by the visual programming language ScratchJr.](https://doi.org/10.31234/osf.io/zy8d5_v1)
 
