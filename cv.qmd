@@ -214,6 +214,8 @@ work |>
 
 3.  \^Nadler, E., **Geller, J.**, & Bers, M. U. (2025). [The coding brain: P600 effects elicited by the visual programming language ScratchJr](https://doi.org/10.31234/osf.io/zy8d5_v1). *PsyArXiv*.
 
+4.  Mirman, D., Thye, M., **Geller, J.**, & Szaflarski, J. (2026). Dataset of intracranial electroencephalography during language processing.
+
 ## Talks/Workshops
 
 - **Geller, J.** (August, 2025). *Writing reproducible manuscripts in R using Quarto*.\
