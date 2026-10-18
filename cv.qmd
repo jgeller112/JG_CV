@@ -136,6 +136,7 @@ work |>
     sep = "–",
     sort_by = "none" # keep the order written in the table above
   ) |>
+  mutate(date = sub("^(\\d{4})–\\1$", "\\1", date)) |> # "2022–2022" -> "2022"
   resume_entry()
 ```
 
