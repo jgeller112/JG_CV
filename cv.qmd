@@ -24,7 +24,8 @@ author:
 style:
   color-link: "1a56db"
 format:
-  awesomecv-typst: default
+  awesomecv-typst:
+    font-paths: fonts
 execute:
   echo: false
   warning: false
@@ -35,18 +36,22 @@ execute:
 library(typstcv)
 library(tibble)
 library(dplyr)
+
+
+#install.packages("typstcv", repos = "https://kazuyanagimoto.r-universe.dev")
+
 # -------------------------
 # Education (dates)
 # -------------------------
 educ <- tribble(
-  ~title, ~location, ~start, ~end, ~description,
-  "Ph.D., Psychology", "Ames, IA", as.Date("2012-01-01"), as.Date("2017-06-01"),
-  "Iowa State University — Quantitative Psychology Certificate (2016)",
+  ~title                                                               , ~location     , ~start                , ~end                  , ~description ,
+  "Ph.D., Psychology"                                                  , "Ames, IA"    , as.Date("2012-01-01") , as.Date("2017-06-01") ,
+  "Iowa State University — Quantitative Psychology Certificate (2016)" ,
 
-  "M.S., Experimental Psychology (Distinction)", "Chicago, IL", as.Date("2009-09-01"), as.Date("2012-09-01"),
-  "DePaul University",
+  "M.S., Experimental Psychology (Distinction)"                        , "Chicago, IL" , as.Date("2009-09-01") , as.Date("2012-09-01") ,
+  "DePaul University"                                                  ,
 
-  "B.A., Psychology", "Chicago, IL", as.Date("2005-09-01"), as.Date("2009-05-01"),
+  "B.A., Psychology"                                                   , "Chicago, IL" , as.Date("2005-09-01") , as.Date("2009-05-01") ,
   "Concordia University"
 )
 
@@ -54,48 +59,45 @@ educ <- tribble(
 # Work (institution in description; no 'Present' strings)
 # -------------------------
 work <- tribble(
-  ~title, ~location, ~start, ~end, ~description,
-  "Director, Human Neuroscience Facility", "Boston, MA",
-  as.Date("2024-01-01"), NA, "Boston College",
+  ~title                                  , ~location             , ~start                                 , ~end , ~description ,
+  "Director, Human Neuroscience Facility" , "Boston, MA"          ,
+  as.Date("2024-01-01")                   , NA                    , "Boston College"                       ,
 
-  "Lecturer and Statistical Consultant", "Princeton, NJ",
-  as.Date("2022-01-01"), as.Date("2024-01-01"), "Princeton University",
+  "Lecturer and Statistical Consultant"   , "Princeton, NJ"       ,
+  as.Date("2022-01-01")                   , as.Date("2024-01-01") , "Princeton University"                 ,
 
-  "Research Scientist", "",
-  as.Date("2022-02-01"), as.Date("2022-07-01"), "Tobii Eye Tracking — Feb–July 2022",
+  "Research Scientist"                    , ""                    ,
+  as.Date("2022-02-01")                   , as.Date("2022-07-01") , "Tobii Eye Tracking — Feb–July 2022"   ,
 
-  "Research Scientist", "New Brunswick, NJ",
-  as.Date("2020-01-01"), as.Date("2022-01-01"), "Rutgers Center for Cognitive Science",
+  "Research Scientist"                    , "New Brunswick, NJ"   ,
+  as.Date("2020-01-01")                   , as.Date("2022-01-01") , "Rutgers Center for Cognitive Science" ,
 
-  "Postdoctoral Researcher", "Iowa City, IA",
-  as.Date("2019-01-01"), as.Date("2020-01-01"), "University of Iowa",
+  "Postdoctoral Researcher"               , "Iowa City, IA"       ,
+  as.Date("2019-01-01")                   , as.Date("2020-01-01") , "University of Iowa"                   ,
 
-  "Postdoctoral Researcher", "Birmingham, AL",
-  as.Date("2017-01-01"), as.Date("2019-01-01"), "University of Alabama at Birmingham"
+  "Postdoctoral Researcher"               , "Birmingham, AL"      ,
+  as.Date("2017-01-01")                   , as.Date("2019-01-01") , "University of Alabama at Birmingham"
 )
 
 # -------------------------
 # Awards (institution in description)
 # -------------------------
 award <- tribble(
-  ~title, ~location, ~start, ~end, ~description,
-  "Lloyd Avant Scholars Award for Outstanding Achievement in Cognitive Psychology", "",
-  as.Date("2017-01-01"), as.Date("2017-01-01"),
+  ~title                                                                           , ~location             , ~start , ~end , ~description ,
+  "Lloyd Avant Scholars Award for Outstanding Achievement in Cognitive Psychology" , ""                    ,
+  as.Date("2017-01-01")                                                            , as.Date("2017-01-01") ,
   "Iowa State University — Annual award ($100)"
 )
 
 
 editorial <- tibble::tribble(
-  ~title, ~location, ~start, ~end, ~detail1,
-  "Behavior Research Methods", "", 2025, 2026,
-  "Special Issue Editor",
+  ~title                                   , ~location , ~start , ~end , ~detail1 ,
+  "Behavior Research Methods"              , ""        ,   2025 , 2026 ,
+  "Special Issue Editor"                   ,
 
-  "Attention, Perception, & Psychophysics", "", 2026, NA,
+  "Attention, Perception, & Psychophysics" , ""        ,   2026 , NA   ,
   "Consulting Editor"
 )
-
-
-
 ```
 
 ```{=typst}
@@ -132,7 +134,7 @@ work |>
     end = "end",
     date_format = "%Y",
     sep = "–",
-    sort_by = "start"
+    sort_by = "none" # keep the order written in the table above
   ) |>
   resume_entry()
 ```
@@ -242,11 +244,14 @@ work |>
 1.  **Vision Science Society Annual Meeting (VSS 2026)**\
     St. Pete Beach, FL, United States
     - Poster: Xue, X., Davidesco, I., Av-Shalom, N., Vasilyeva, M., Zhang, N., Sabelli, R., & **Geller, J.** *Through the student’s lens: Capturing visual attention in real-world classrooms*
-2.  **Cognitive Neuroscience Society Annual Meeting (CNS 2026)** Vancouver, BC, Canada
+2.  **Cognitive Neuroscience Society Annual Meeting (CNS 2026)**\
+    Vancouver, BC, Canada
     - Poster: Xue, X., Davidesco, I., Av-Shalom, N., Vasilyeva, M., Zhang, N., Sabelli, R., & **Geller, J.** *Detecting mind wandering in real classrooms using eye-tracking and machine learning*
-3.  **Annual Meeting of the Midwestern Psychological Association (MPA 2026)** Chicago, IL
+3.  **Annual Meeting of the Midwestern Psychological Association (MPA 2026)**\
+    Chicago, IL
     - Poster: Rende, L., Miller, G., **Geller, J.**, & Barnhart, A. *A Whole Other Aminal: Transposed Letters in Handwritten Word Perception*
-4.  **Cognitive Neuroscience Society Annual Meeting (CNS 2025)** Boston, MA, March 29–April 1, 2025
+4.  **Cognitive Neuroscience Society Annual Meeting (CNS 2025)**\
+    Boston, MA, March 29–April 1, 2025
     - Poster: Easwar, V., Davidesco, I., **Geller, J.**, & Gilmore, S. *The impact of internal attention on learning from online lectures*\
     - Poster: Nadler, E., **Geller, J.**, & Bers, M. *Semantic ERP correlates in processing of the visual programming language ScratchJr*
 5.  **61st Annual Meeting of the Psychonomic Society (Psychonomics 2020)**\
@@ -267,9 +272,8 @@ work |>
     Madison, WI, July 2018
     - Poster: *Testing expectancy, but not judgments of learning, moderate the disfluency effect*
 10. **10th Annual Meeting of the Society for Neurobiology of Language (SNL 2018)**\
-    Quebec City, Canada, August 2018\
-
-- Poster: *Effects of graded white matter damage and binary tract disconnection on post-stroke language impairment*
+    Quebec City, Canada, August 2018
+    - Poster: *Effects of graded white matter damage and binary tract disconnection on post-stroke language impairment*
 
 11. **47th Annual Meeting of the Society for Computers in Psychology (SCIP 2018)**\
     New Orleans, LA, November 2018
