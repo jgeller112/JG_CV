@@ -213,13 +213,15 @@ work |>
 
 ## Preprints/Unpublished
 
-1.  **Geller, J.**, Angele, B., & Makowski, D. (2026). [This is not the ex-Gaussian model you are looking for: On the default parameterization of Bayesian ex-Gaussian models in brms](https://osf.io/preprints/psyarxiv/kdcxa_v2). *PsyArXiv*.
+1.  **Geller, J.** (2026). [I remember that question: Using eye tracking to see how prequestions shape reading](https://osf.io/preprints/psyarxiv/sd2hq_v1). *PsyArXiv*.
 
-2.  \^Vieira, F. F., **Geller, J.**, & Rodrigues, B. (2026). [Why risk it, when you can {rix} it: A tutorial for computational reproducibility focused on simulation studies](https://osf.io/preprints/psyarxiv/a3e8v_v1). *PsyArXiv*.
+2.  **Geller, J.**, Angele, B., & Makowski, D. (2026). [This is not the ex-Gaussian model you are looking for: On the default parameterization of Bayesian ex-Gaussian models in brms](https://osf.io/preprints/psyarxiv/kdcxa_v2). *PsyArXiv*.
 
-3.  \^Nadler, E., **Geller, J.**, & Bers, M. U. (2025). [The coding brain: P600 effects elicited by the visual programming language ScratchJr](https://doi.org/10.31234/osf.io/zy8d5_v1). *PsyArXiv*.
+3.  \^Vieira, F. F., **Geller, J.**, & Rodrigues, B. (2026). [Why risk it, when you can {rix} it: A tutorial for computational reproducibility focused on simulation studies](https://osf.io/preprints/psyarxiv/a3e8v_v1). *PsyArXiv*.
 
-4.  Mirman, D., Thye, M., **Geller, J.**, & Szaflarski, J. (2026). Dataset of intracranial electroencephalography during language processing.
+4.  \^Nadler, E., **Geller, J.**, & Bers, M. U. (2025). [The coding brain: P600 effects elicited by the visual programming language ScratchJr](https://doi.org/10.31234/osf.io/zy8d5_v1). *PsyArXiv*.
+
+5.  Mirman, D., Thye, M., **Geller, J.**, & Szaflarski, J. (2026). Dataset of intracranial electroencephalography during language processing.
 
 ## Talks/Workshops
 
