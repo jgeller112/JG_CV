@@ -245,6 +245,9 @@ work |>
 - {**gazeR**}. R package for preprocessing and analyzing gaze data from eye-tracking studies.\
   GitHub: https://github.com/dmirman/gazer
 
+- {**shiny gazeR**}. Point-and-click Shiny app for pupil pre-processing, built on gazeR; runs in the browser without data leaving the user's computer.\
+  App: https://jgeller112.github.io/shiny-gazeR/ | GitHub: https://github.com/jgeller112/shiny-gazeR
+
 ## Conferences
 
 1.  **Society for Research in Child Development Biennial Meeting (SRCD 2027)**\
