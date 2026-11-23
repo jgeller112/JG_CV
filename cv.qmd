@@ -225,6 +225,9 @@ work |>
 
 ## Talks/Workshops
 
+- **Geller, J.** (November, 2026). *I swear it worked on my computer! Computational reproducibility using Nix and {rix}*.\
+  Visiting Speaker Series, Princeton University, Princeton, NJ.
+
 - **Geller, J.** (August, 2025). *Writing reproducible manuscripts in R using Quarto*.\
   OPAM Virtual.
 
